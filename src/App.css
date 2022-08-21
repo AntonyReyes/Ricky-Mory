@@ -1,0 +1,86 @@
+.card__container_ResidentInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 5em;
+}
+
+.card__titleLocation{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card_li_location{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card_img_resident{
+    width: 160px;
+    height: 100%;
+}
+.card__resident_info{
+    width: 45% ;
+    background-color: rgb(69, 61, 61);
+    display: flex;
+    border-radius: 1em;
+    box-shadow: 1px 1px 20px #000a;
+    overflow: hidden;
+    
+}
+.resident__container_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 0 4%;
+    margin: 0;
+}
+
+.card_residents_title{
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.residents__status{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.cirlce{
+    background-color: grey;
+    width: 1em;
+    height: 1em;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+
+.card__ul_residentIndo{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:rgb(162, 150, 150) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: white;
+}
+
+.card__item{
+    padding-bottom: 5px;
+}
+
+.card_footer{
+    width: 100%;
+    margin: 0;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.card__footer_h1{
+    padding: 1em;
+    text-align: center;
+}
